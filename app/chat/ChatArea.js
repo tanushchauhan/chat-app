@@ -5,6 +5,8 @@ function ChatArea() {
   const input = useRef(null);
   const check = useRef(false);
   const user = useRef("");
+
+  //loading the user
   useEffect(() => {
     if (typeof window !== "undefined" && window.localStorage) {
       user.current = localStorage.getItem("user");
