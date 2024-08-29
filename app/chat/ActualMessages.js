@@ -22,6 +22,21 @@ function IncommingMessage({ sender, content }) {
   );
 }
 
+function OutgoingMessage({ content }) {
+  return (
+    <div className="w-full flex items-center justify-end">
+      <div className="flex items-center justify-end max-w-[50%]">
+        <div className="bg-blue-500 p-4 my-6 rounded-lg flex-1 text-gray-200 text-lg break-all">
+          {content}
+        </div>
+        <div className="w-3 overflow-hidden">
+          <div className="h-4 bg-blue-500 rotate-45 transform origin-top-left rounded-sm"></div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function ActualMessages({ data }) {
   const [list, setList] = useState(data);
   const user = useRef("");
