@@ -59,3 +59,11 @@ You will also need to set up a database in Superbase and ensure real-time subscr
 ## Authors
 
 - [@tanushchauhan](https://github.com/tanushchauhan)
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/tanushchauhan/chat-app/main/screenshots/1.png)
+
+![App Screenshot](https://raw.githubusercontent.com/tanushchauhan/chat-app/main/screenshots/2.png)
+
+![App Screenshot](https://raw.githubusercontent.com/tanushchauhan/chat-app/main/screenshots/3.png)
