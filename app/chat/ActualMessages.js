@@ -48,7 +48,7 @@ function ActualMessages({ data }) {
       if (!user.current) router.push("/");
     }
     const chats = supabase
-      .channel("realtimeChats")
+      .channel("supabase_realtime")
       .on(
         "postgres_changes",
         { event: "INSERT", schema: "public", table: "chats" },
